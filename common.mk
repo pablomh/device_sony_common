@@ -170,7 +170,10 @@ PRODUCT_PACKAGES += \
 
 # libfuse
 PRODUCT_PACKAGES += \
-    libfuse
+    libfuse \
+    fsck.exfat \
+    mkfs.exfat \
+    mount.exfat
 
 # APN list
 PRODUCT_COPY_FILES += \
