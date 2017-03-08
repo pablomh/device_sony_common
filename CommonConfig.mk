@@ -34,6 +34,9 @@ BOARD_KERNEL_CMDLINE += sched_enable_power_aware=1 user_debug=31
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
+# Additional kernel filesystem support
+TARGET_KERNEL_HAVE_EXFAT := true
+
 # GFX
 USE_OPENGL_RENDERER := true
 TARGET_USES_ION := true
