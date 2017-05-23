@@ -180,6 +180,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     libfuse
 
+# exfat
+PRODUCT_PACKAGES += \
+    fsck.exfat \
+    libexfat \
+    mkfs.exfat \
+    mount.exfat
+
 # APN list
 PRODUCT_COPY_FILES += \
     device/sample/etc/old-apns-conf.xml:system/etc/old-apns-conf.xml \
