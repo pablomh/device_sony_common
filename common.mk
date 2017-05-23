@@ -176,6 +176,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libfuse
 
+# exfat
+PRODUCT_PACKAGES += \
+    dumpexfat \
+    exfatfsck \
+    exfatlabel \
+    libexfat \
+    mkexfatfs \
+    mount.exfat-fuse
+
 # APN list
 PRODUCT_COPY_FILES += \
     device/sample/etc/old-apns-conf.xml:system/etc/old-apns-conf.xml \
