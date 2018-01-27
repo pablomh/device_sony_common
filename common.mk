@@ -180,6 +180,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libemoji
 
+PRODUCT_PACKAGES += \
+    libfuse
+
 # RIL
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
